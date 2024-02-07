@@ -140,7 +140,7 @@ class Application(tk.Tk):
         image_item = DraggableImage(self.canvas, x, y, image)
         self.images.append(image_item)
 
-    def delete_image(self):
+    def delete_image(self, event):
         x, y = self.winfo_pointerxy()
         canvas_x = self.canvas.winfo_rootx()
         canvas_y = self.canvas.winfo_rooty()
