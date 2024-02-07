@@ -1,3 +1,3 @@
 Simple gui with season 14 League of Legends map, role icons, and ward placement for basic game planning/explanatory purposes. Bubbles surrounding icons are not exact indicators of vision; they're roughly scaled in the same way that riftkit was. 
 
-To use the execteable, you just need the dist folder. The exe was compiled using pyinstaller, and will likely be flagged as suspicious
+The source code is in python, and the exe was compiled using pyinstaller. It was created for those unfamiliar with using python. To use it, you just need the dist folder. Due to the compilation method, and being an unsigned executeable, it will be flagged as suspicious. The process of getting a CA is prohibitibively expensive and outside the scope of what I would consider a hobby project.
